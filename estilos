@@ -1,0 +1,116 @@
+
+body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    background: linear-gradient(25deg, #883bed, #7a35d4, #441c78, #301354, black, black);
+    background-size: 1400% 200%;
+    animation: gradient 40s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+	background-position: 0% 100%;
+	}
+}
+
+body { 
+ font-family : arial;
+ font-size:125%;
+ color:White;
+}
+
+p{
+ font-size:1.5vw;
+ font-family:courier,arial,helvetica;
+ text-align:center;
+ font-weight:normal;
+ }
+
+h2{
+ font-size:3vw;
+ font-family:courier,arial,helvetica;
+ text-align:center;
+ font-weight:normal;
+color:#ff801f;
+}
+
+h3{
+ font-size:3vw;
+ font-family:courier,arial,helvetica;
+ text-align:center;
+ font-weight:normal;
+color:#ff801f;
+}
+
+.Navegador {
+  overflow: hidden;
+  background-color: black;
+}
+.Navegador a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.Navegador a:hover {
+  background-color: #ff801f;
+  color: white;
+}
+.Navegador a.idem {
+  background-color: black;
+  color: white;
+}
+.Navegador a.activo {
+  background-color: #7a35d4;
+  color: white;
+}
+
+.Navegador input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+@media screen and (max-width: 600px) {
+  .Navegador a, .Navegador input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .Navegador input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+span {
+font-size:1.3vw;
+ font-family:arial,helvetica;
+ font-weight:normal;
+}
+
+.Separador {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 45%;
+  max-width: 300px;
+  height: auto;
+}
